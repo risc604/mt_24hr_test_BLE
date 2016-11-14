@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">test_24hr_MT App.</string>
+    <string name="app_name">24hr_MT BLE Test.</string>
     <string name="create_your_profile">Create your profile</string>
     <string name="title_activity_left_side_menu">24hr_MT</string>
 

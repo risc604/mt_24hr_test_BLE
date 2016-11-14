@@ -1,4 +1,4 @@
-package com.microlife.software.a24hr_mt;
+package github.mlc.software.a24hr_mt;
 
 import android.Manifest;
 import android.app.Activity;
@@ -15,6 +15,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+
 
 public class LoadingActivity extends Activity
 {

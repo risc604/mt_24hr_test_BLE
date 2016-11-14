@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
@@ -14,12 +14,6 @@
         android:id="@+id/ivEmail"
         android:layout_height="24dp" android:layout_width="32dp"
         android:contentDescription=""/>
-    <ImageButton
-        android:layout_width="match_parent"
-        app:srcCompat="@drawable/button_dddelete"
-        android:layout_below="@+id/graphChart" android:layout_alignParentStart="true"
-        android:id="@+id/imBtnDel" android:elevation="0dp"
-        tools:elevation="1dp" android:layout_height="50dp"/>
 
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/graphChart"
@@ -27,7 +21,7 @@
         android:contentDescription="@string/graphics"
         android:background="@color/vpi__bright_foreground_disabled_holo_light"
         android:layout_weight="1"
-        android:layout_alignParentStart="true" android:layout_height="370dp"
+        android:layout_alignParentStart="true" android:layout_height="match_parent"
         android:layout_below="@+id/ivEmail">
     </com.github.mikephil.charting.charts.LineChart>
 
