@@ -5,14 +5,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
-                android:id="@+id/llgraph" android:weightSum="1">
+                android:id="@+id/llgraph"
+                android:weightSum="1">
 
     <ImageView
         app:srcCompat="@drawable/icon_email"
         android:layout_alignBottom="@+id/tvdayInfo"
         android:layout_alignParentEnd="true"
         android:id="@+id/ivEmail"
-        android:layout_height="24dp" android:layout_width="32dp"
+        android:layout_height="24dp"
+        android:layout_width="32dp"
         android:contentDescription=""/>
 
     <com.github.mikephil.charting.charts.LineChart
@@ -21,7 +23,8 @@
         android:contentDescription="@string/graphics"
         android:background="@color/vpi__bright_foreground_disabled_holo_light"
         android:layout_weight="1"
-        android:layout_alignParentStart="true" android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_height="match_parent"
         android:layout_below="@+id/ivEmail">
     </com.github.mikephil.charting.charts.LineChart>
 
@@ -30,8 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvdayInfo"
-        android:textAlignment="viewStart" android:textColor="@color/vpi__background_holo_dark"
-        android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
-
+        android:textAlignment="viewStart"
+        android:textColor="@color/vpi__background_holo_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
 
 </RelativeLayout>
